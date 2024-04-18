@@ -1,0 +1,68 @@
+-- phpMyAdmin SQL Dump
+-- version 4.8.0.1
+-- https: //www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Apr 06, 2018 at 03:21 AM
+-- Server version: 10.1.32-MariaDB
+-- PHP Version: 7.2.5
+
+SET SOL_MODE = "NO AUTO_VALUE _ON_I_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00" ;
+
+/* 40101 SET @OLD_CHARACTER__SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/* 40101 SET @OLD_CHARACTER_SET._RESULTS=@@CHARACTER__SET_RESULTS */；
+/* 40101 SET @OLD_COLLATION
+/* 40101 SET NAMES UtTAMDO CONNECTION- ECOLLATION CONNECTION */
+
+-- Database: idea_dbidea
+--
+-- Table structure for table tblfeedback
+
+CREATE TABLE blfeedback 
+( AUTOID int (11) NOT NULL,
+-- AUTOSTART varchar (30) NOT NULL,
+-- AUTOEND int(11) NOT NULL,
+-- AUTOINC int(11) NOT NULL, AUTOKEY varchar(30) NOT NULL 
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE 'tblusers (
+'USERID' int(11) NOT NULL,
+"NAME" varchar(90) NOT NULL,
+"UEMAIL' varchar(90) NOT NULL,
+"TITLE' varchar(98) NOT NULL,
+"DESCRIPTION:' varchar(98) NOT NULL,
+'TYPE* varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--  Dumping data for table tblfeedback
+
+INSERT INTO tblfeedback (AUTOID, AUTOSTART, AUTOEND™ , AUTOINC, AUTOKEY') VALUES
+'userid'),
+(1, 02983', 8, 1, 'NAME' ),
+(12,000, 34, 1, 'UEMAIL'), 
+(13, '0', 5, 1, 'TITLE'); DESCRIPTION
+(13,000, '0', 5, 1, 'DESCRIPTION');
+
+ALTER TABLE 'tblusers"
+    MODIFY USERID int (11) NOT NULL AUTO_INCREMENT, AUTO_ INCREMENT=3;
+COMMIT;|
+
+ALTER TABLE " tblfeedback"
+    ADD PRIMARY KEY (*Name*);
+
+ALTER TABLE " tblfeedback"
+    ADD PRIMARY KEY (*EmailID*);
+
+ALTER TABLE " tblfeedback"
+    ADD PRIMARY KEY (*IdeaTitle*);
+
+ALTER TABLE " tblfeedback"
+    ADD PRIMARY KEY (*IdeaDescription*);
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT "/;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_RESULTS "/;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CONNECTIONS "/;
+
